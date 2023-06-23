@@ -13,6 +13,7 @@ public class JudgeIsPalindromeString {
         Scanner sc = new Scanner(System.in);
         String word = sc.next();
         solution(word);
+        solution2(word);
     }
 
     static void solution(String word) {
@@ -44,4 +45,18 @@ public class JudgeIsPalindromeString {
 
         System.out.println(result);
     }
+
+    // StringBuilder의 reverse를 이용한 간단한 방법
+     static void solution2(String word) {
+
+        // 대소문자 구분을 하지 않기 위해서 전부 대문자로 변환
+        word = word.toUpperCase();
+
+        String compareWord = new StringBuilder(word).reverse().toString();
+
+        String result = word.equals(compareWord) ? "YES" : "NO";
+
+         System.out.println(result);
+
+     }
 }
