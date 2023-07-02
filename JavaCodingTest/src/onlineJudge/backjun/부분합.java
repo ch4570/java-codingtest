@@ -4,8 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class 수들의_합_2 {
-
+public class 부분합 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -15,27 +14,25 @@ public class 수들의_합_2 {
         int numberCount = Integer.parseInt(arr[0]);
         int compositionNumber = Integer.parseInt(arr[1]);
 
+        // 탐색에 용이하도록 배열의 크기를 1 더 크게 잡아준다.
         int[] numArr = new int[numberCount + 1];
 
         for (int i=0; i<numberCount; i++) {
             numArr[i] = Integer.parseInt(arr2[i]);
         }
 
-
-        System.out.println(solution(compositionNumber, numberCount, numArr));
+        System.out.println(solution(numberCount, compositionNumber, numArr));
     }
 
-    static int solution(int compositionNumber, int numberCount, int[] numArr) {
-        int lt = 0, rt = 0, cnt = 0;
+    static int solution(int numberCount, int compositionNumber, int[] numArr) {
+
+        int lt = 0, rt = 0, answer = Integer.MAX_VALUE;
         int sum = numArr[rt];
 
         while (lt < numberCount && rt < numberCount) {
 
-            if (sum == compositionNumber) {
-                cnt++;
-                rt++;
-                sum += numArr[rt];
-            } else if (sum > compositionNumber) {
+            if (sum >= compositionNumber) {
+                answer = Math.min(rt - lt + 1, answer);
                 sum -= numArr[lt++];
             } else {
                 rt++;
@@ -43,6 +40,6 @@ public class 수들의_합_2 {
             }
         }
 
-        return cnt;
+        return answer == Integer.MAX_VALUE ? 0 : answer;
     }
 }
