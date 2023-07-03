@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9c16341-d579-4b19-b40c-d66cd20f617a" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/MapAndSet/매출액의_종류.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapAndSet/매출액의_종류_해설.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapAndSet/모든_아나그램_찾기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapAndSet/아나그램_해쉬.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapAndSet/아나그램_해쉬_해설.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapAndSet/학급_회장.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapAndSet/학급_회장_해설.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RrHZpBPPNDUspJYP8yftKexH24" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/devseorex/Desktop/codingtest/java-codingtest/JavaCodingTest/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager" selected="애플리케이션.모든_아나그램_찾기">
+    <configuration name="아나그램_해쉬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapAndSet.아나그램_해쉬" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="학급_회장" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapAndSet.학급_회장" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="매출액의_종류" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapAndSet.매출액의_종류" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="학급_회장_해설" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapAndSet.학급_회장_해설" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="모든_아나그램_찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapAndSet.모든_아나그램_찾기" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="아나그램_해쉬_해설" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MapAndSet.아나그램_해쉬_해설" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MapAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="연속된_자연수의_합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.연속된_자연수의_합" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoPointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.모든_아나그램_찾기" />
+        <item itemvalue="애플리케이션.학급_회장_해설" />
+        <item itemvalue="애플리케이션.아나그램_해쉬" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="e9c16341-d579-4b19-b40c-d66cd20f617a" name="변경" comment="" />
+      <created>1688001338524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688001338524</updated>
+      <workItem from="1688001340184" duration="3160000" />
+      <workItem from="1688004514732" duration="1430000" />
+      <workItem from="1688005970944" duration="6299000" />
+      <workItem from="1688015724857" duration="4873000" />
+      <workItem from="1688097070928" duration="5638000" />
+      <workItem from="1688106157906" duration="11698000" />
+      <workItem from="1688124057929" duration="4665000" />
+      <workItem from="1688129393815" duration="2299000" />
+      <workItem from="1688276353158" duration="12440000" />
+      <workItem from="1688350691786" duration="4465000" />
+      <workItem from="1688361287387" duration="329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
