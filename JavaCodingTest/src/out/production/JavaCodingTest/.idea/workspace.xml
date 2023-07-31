@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9c16341-d579-4b19-b40c-d66cd20f617a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/DFS_BFS_기초/경로_탐색_인접_리스트.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS_BFS_기초/경로_탐색_인접행렬.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS_BFS_기초/그래프_최단거리_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS_활용/동전_교환.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS_활용/순열_구하기_중복불가.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS_활용/순열_구하기_중복불가_해설.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS_활용/조합의_경우수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS_활용/중복순열_구하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS_BFS_활용/중복순열_구하기_해설.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaCodingTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCodingTest/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +54,13 @@
       <recent name="DFS_BFS_기초" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.합이_같은_부분_집합">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="onlineJudge.backjun.Main" />
+  <component name="RunManager" selected="애플리케이션.조합의_경우수">
+    <configuration name="동전_교환" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS_활용.동전_교환" />
       <module name="JavaCodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlineJudge.backjun.*" />
+          <option name="PATTERN" value="DFS_BFS_활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="탑" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="onlineJudge.backjun.탑" />
+    <configuration name="조합의_경우수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS_활용.조합의_경우수" />
       <module name="JavaCodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlineJudge.backjun.*" />
+          <option name="PATTERN" value="DFS_BFS_활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="덱_10866" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="onlineJudge.backjun.덱_10866" />
+    <configuration name="중복순열_구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS_활용.중복순열_구하기" />
       <module name="JavaCodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlineJudge.backjun.*" />
+          <option name="PATTERN" value="DFS_BFS_활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="경로_탐색_인접행렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_BFS_기초.경로_탐색_인접행렬" />
+    <configuration name="바둑이_승차_해설" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS_활용.바둑이_승차_해설" />
       <module name="JavaCodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS_BFS_기초.*" />
+          <option name="PATTERN" value="DFS_BFS_활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +172,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="경로_탐색_인접_리스트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_BFS_기초.경로_탐색_인접_리스트" />
+    <configuration name="최대점수_구하기_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS_활용.최대점수_구하기_DFS" />
       <module name="JavaCodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS_BFS_기초.*" />
+          <option name="PATTERN" value="DFS_BFS_활용.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="순열_구하기_중복불가" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS_활용.순열_구하기_중복불가" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFS_BFS_활용.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="순열_구하기_중복불가_해설" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS_활용.순열_구하기_중복불가_해설" />
+      <module name="JavaCodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DFS_BFS_활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.합이_같은_부분_집합" />
-        <item itemvalue="애플리케이션.경로_탐색_인접_리스트" />
-        <item itemvalue="애플리케이션.경로_탐색_인접행렬" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.덱_10866" />
+        <item itemvalue="애플리케이션.조합의_경우수" />
+        <item itemvalue="애플리케이션.순열_구하기_중복불가_해설" />
+        <item itemvalue="애플리케이션.동전_교환" />
+        <item itemvalue="애플리케이션.최대점수_구하기_DFS" />
+        <item itemvalue="애플리케이션.바둑이_승차_해설" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +263,10 @@
       <workItem from="1690246450505" duration="10871000" />
       <workItem from="1690260805035" duration="1267000" />
       <workItem from="1690331062812" duration="6182000" />
-      <workItem from="1690347821376" duration="1387000" />
+      <workItem from="1690347821376" duration="5308000" />
+      <workItem from="1690765143493" duration="3058000" />
+      <workItem from="1690768214332" duration="5255000" />
+      <workItem from="1690778779971" duration="560000" />
     </task>
     <servers />
   </component>
