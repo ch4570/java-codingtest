@@ -2,9 +2,9 @@ package DFS_BFS_활용;
 
 import java.util.Scanner;
 
-public class 조합_만들기 {
+public class 조합_구하기 {
 
-    static int[] arr, answer;
+    static int[] answer;
     static int n, k;
 
     public static void main(String[] args) {
@@ -13,12 +13,9 @@ public class 조합_만들기 {
         n = sc.nextInt();
         k = sc.nextInt();
 
-        arr = new int[n];
         answer = new int[k];
 
-        for (int i=0; i<n; i++) {
-            arr[i] = i+1;
-        }
+
 
         DFS(0, 1);
     }

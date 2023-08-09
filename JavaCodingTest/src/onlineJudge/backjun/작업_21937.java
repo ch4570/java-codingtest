@@ -1,22 +1,18 @@
 package onlineJudge.backjun;
 
+import java.io.*;
 import java.util.*;
 
 public class 작업_21937 {
 
-    static List<List<Integer>> list = new ArrayList<>();
+    static List<List<Integer>> list;
     static boolean[] visit;
     static int X, ANSWER = 0;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         input();
-        solution();
-
-        System.out.println(ANSWER);
-    }
-
-    static void solution() {
         DFS(X);
+        output();
     }
 
     static void DFS(int x) {
@@ -35,13 +31,22 @@ public class 작업_21937 {
 
     }
 
+    static void output() throws IOException {
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        bw.write(String.valueOf(ANSWER));
 
-    static void input() {
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int M = sc.nextInt();
+        bw.flush();
+    }
+
+
+    static void input() throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer tokenizer = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(tokenizer.nextToken());
+        int M = Integer.parseInt(tokenizer.nextToken());
 
         visit = new boolean[N + 1];
+        list = new ArrayList<>(N + 1);
 
         // 빈 리스트를 넣어준다.
         for (int i=0; i<=N; i++) {
@@ -49,14 +54,17 @@ public class 작업_21937 {
         }
 
         for (int i=0; i<M; i++) {
-            int prevNum = sc.nextInt();
-            int workNum = sc.nextInt();
+            tokenizer = new StringTokenizer(br.readLine());
+            int prevNum = Integer.parseInt(tokenizer.nextToken());
+            int workNum = Integer.parseInt(tokenizer.nextToken());
 
             list.get(workNum).add(prevNum);
         }
 
 
-        X = sc.nextInt();
+        tokenizer = new StringTokenizer(br.readLine());
+        X = Integer.parseInt(tokenizer.nextToken());
+
     }
 }
 

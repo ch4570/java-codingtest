@@ -1,2 +1,32 @@
-package DFS_BFS_활용;public class 조합_구하기_해설 {
+package DFS_BFS_활용;
+
+import java.util.Scanner;
+
+public class 조합_구하기_해설 {
+
+    static int[] combi;
+    static int n, m;
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        m = sc.nextInt();
+        combi = new int[m];
+
+        DFS(0, 1);
+    }
+
+    static void DFS(int L, int s) {
+        if (L == m) {
+            for (int x : combi) System.out.print(x + " ");
+            System.out.println();
+            return;
+        }
+
+        for (int i=s; i<=n; i++) {
+            combi[L] = i;
+            DFS(L+1, i+1);
+        }
+    }
 }
